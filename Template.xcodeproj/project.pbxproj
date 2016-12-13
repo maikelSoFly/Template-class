@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7F63087B1E00971900EBB11F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F63087A1E00971900EBB11F /* main.cpp */; };
+		7F6308841E00976500EBB11F /* Node1D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6308821E00976500EBB11F /* Node1D.cpp */; };
+		7F6308871E00978E00EBB11F /* Node2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6308851E00978E00EBB11F /* Node2D.cpp */; };
+		7F63088B1E0097B000EBB11F /* Node3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6308891E0097B000EBB11F /* Node3D.cpp */; };
+		7F63088F1E0097CF00EBB11F /* Element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F63088D1E0097CF00EBB11F /* Element.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		7F6308771E00971900EBB11F /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F63087A1E00971900EBB11F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7F6308821E00976500EBB11F /* Node1D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node1D.cpp; sourceTree = "<group>"; };
+		7F6308831E00976500EBB11F /* Node1D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Node1D.hpp; path = Template/Node1D.hpp; sourceTree = "<group>"; };
+		7F6308851E00978E00EBB11F /* Node2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node2D.cpp; sourceTree = "<group>"; };
+		7F6308861E00978E00EBB11F /* Node2D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Node2D.hpp; path = Template/Node2D.hpp; sourceTree = "<group>"; };
+		7F6308891E0097B000EBB11F /* Node3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node3D.cpp; sourceTree = "<group>"; };
+		7F63088A1E0097B000EBB11F /* Node3D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Node3D.hpp; path = Template/Node3D.hpp; sourceTree = "<group>"; };
+		7F63088D1E0097CF00EBB11F /* Element.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Element.cpp; sourceTree = "<group>"; };
+		7F63088E1E0097CF00EBB11F /* Element.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Element.hpp; path = Template/Element.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +53,8 @@
 		7F63086E1E00971900EBB11F = {
 			isa = PBXGroup;
 			children = (
-				7F6308791E00971900EBB11F /* Template */,
+				7F6308811E00973300EBB11F /* Header files */,
+				7F6308791E00971900EBB11F /* Source files */,
 				7F6308781E00971900EBB11F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +67,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7F6308791E00971900EBB11F /* Template */ = {
+		7F6308791E00971900EBB11F /* Source files */ = {
 			isa = PBXGroup;
 			children = (
 				7F63087A1E00971900EBB11F /* main.cpp */,
+				7F6308821E00976500EBB11F /* Node1D.cpp */,
+				7F6308851E00978E00EBB11F /* Node2D.cpp */,
+				7F6308891E0097B000EBB11F /* Node3D.cpp */,
+				7F63088D1E0097CF00EBB11F /* Element.cpp */,
 			);
+			name = "Source files";
 			path = Template;
+			sourceTree = "<group>";
+		};
+		7F6308811E00973300EBB11F /* Header files */ = {
+			isa = PBXGroup;
+			children = (
+				7F6308831E00976500EBB11F /* Node1D.hpp */,
+				7F6308861E00978E00EBB11F /* Node2D.hpp */,
+				7F63088A1E0097B000EBB11F /* Node3D.hpp */,
+				7F63088E1E0097CF00EBB11F /* Element.hpp */,
+			);
+			name = "Header files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F63088B1E0097B000EBB11F /* Node3D.cpp in Sources */,
+				7F6308841E00976500EBB11F /* Node1D.cpp in Sources */,
+				7F63088F1E0097CF00EBB11F /* Element.cpp in Sources */,
+				7F6308871E00978E00EBB11F /* Node2D.cpp in Sources */,
 				7F63087B1E00971900EBB11F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
