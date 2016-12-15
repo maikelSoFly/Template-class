@@ -20,7 +20,7 @@ template<int _amount, typename type>
 std::ostream& operator<< (std::ostream&, const Element<_amount, type>&);
 
 
-int main() {
+int main() { 
     
     srand(static_cast<unsigned int>(time(NULL)));
     
