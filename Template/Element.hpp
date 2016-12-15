@@ -10,6 +10,7 @@
 
 template<int _amount , typename type>
 class Element {
+    
 protected:
     
     int amount;
@@ -22,6 +23,8 @@ public:
     ~Element();
     virtual void Print() const;
 };
+
+
 
 
 

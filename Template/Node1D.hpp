@@ -9,6 +9,7 @@
 #pragma once
 
 class Node1D {
+    
 protected:
     
     double x;

@@ -26,6 +26,7 @@ Node3D::~Node3D() { }
 void Node3D::Print() const {
     
     cout << "x: " << x << " y: " << y << " z: " << z << endl;
+    
     for (int i = 0; i < 3; i++) {
         
         switch (i) {
@@ -45,6 +46,6 @@ void Node3D::Print() const {
         
         cout << Variables[i] << endl;
     }
-    cout << "Średnia: " << Average() << endl;
     
+    cout << "Średnia: " << Average() << endl;
 }

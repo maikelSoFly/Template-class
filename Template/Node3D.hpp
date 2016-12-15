@@ -11,6 +11,7 @@
 #include "Node2D.hpp"
 
 class Node3D : public Node2D {
+    
 protected:
     
     double z;

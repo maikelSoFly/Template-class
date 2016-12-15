@@ -11,6 +11,7 @@
 #include "Node1D.hpp"
 
 class Node2D : public Node1D {
+    
 protected:
     
     double y;
