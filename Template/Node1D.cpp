@@ -61,3 +61,4 @@ double Node1D::Average() const {
     
     return (Variables[0] + Variables[1] + Variables[2]) / 3;
 }
+

@@ -49,3 +49,4 @@ void Node3D::Print() const {
     
     cout << "Średnia: " << Average() << endl;
 }
+

@@ -23,3 +23,4 @@ public:
     virtual void Print() const;
     double Average() const;
 };
+

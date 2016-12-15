@@ -23,4 +23,3 @@ public:
     ~Node2D();
     virtual void Print() const;
 };
-
