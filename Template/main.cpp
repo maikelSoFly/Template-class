@@ -17,7 +17,7 @@ typedef Element<3, Node2D> Element2DTri;
 typedef Element<8, Node3D> Element3DOct;
 
 template<int _amount, typename type>
-std::ostream& operator<<(std::ostream&, const Element<_amount, type>&);
+std::ostream& operator<< (std::ostream&, const Element<_amount, type>&);
 
 
 int main() {
@@ -43,7 +43,7 @@ int main() {
 }
 
 template<int _amount, typename type>
-std::ostream& operator<<(std::ostream& out, const Element<_amount, type>& classObj) {
+std::ostream& operator<< (std::ostream& out, const Element<_amount, type>& classObj) {
     classObj.Print();
     return out;
 }
